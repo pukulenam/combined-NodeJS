@@ -1,0 +1,85 @@
+<div id="layoutSidenav_content">
+    <main class="bg-img-repeat" style="background-image: url('asset/webb.png')">
+        <header class="page-header page-header-compact page-header-light border-bottom bg-white mb-4">
+            <div class="container-xl px-4">
+                <div class="page-header-content">
+                    <div class="row align-items-center justify-content-between pt-3">
+                        <div class="col-auto mb-3">
+                            <h1 class="page-header-title">
+                                <div class="page-header-icon"><i data-feather="user"></i></div>
+                                Converting
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-xl px-4 mt-4">
+            
+            <form>
+                <div class="row">
+                    <div class="col-xl-4">
+                        <label for="inputPenulis">Penulis</label>
+                        <input type="text" class="form-control" id="penulis"
+                            placeholder="Masukkan Nama Penulis">
+
+                        <label for="inputPenulis">Sampul Berita</label>
+                        <input type="file" class="form-control" accept="image/*" id="sampulberita"
+                            placeholder="Last name">
+
+                        <label for="inputPenulis">Sumber Gambar</label>
+                        <input type="text" class="form-control" id="source"
+                            placeholder="Masukkan Sumber Gambar">
+                        <label for="inputPenulis">Referensi Berita</label>
+                        <input type="text" class="form-control" id="newsSource"
+                            placeholder="Masukkan Sumber Berita">
+
+                        <label for="inputPenulis">Editor</label>
+                        <input type="text" class="form-control" id="editor" placeholder="Masukkan Nama Editor">
+
+                        <label for="mksa">Analisis MKSA</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Analisis MKSA</button>
+                    </div>
+                    <br>
+                    <div class="col-xl-8">
+                        <label for="inputPenulis">Judul</label>
+                        <input type="text" class="form-control" id="judul" placeholder="Masukkan Judul Berita">
+                        
+
+                        <label for="inputPenulis">Kategori</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">Kesehatan</option>
+                            <option value="2">Finansial</option>
+                            <option value="3">Gaming</option>
+                            <option value="4">Teknologi</option>
+                            <option value="5">Other</option>
+                          </select>
+
+                        <label>News</label>
+                        <textarea name="news" id="news" rows="10" cols="80">
+                                </textarea>
+
+                        <br>
+                        <button type="submit" class="btn btn-primary">Summit News</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </main>
+    <footer class="footer-admin mt-auto footer-light">
+        <div class="container-xl px-4">
+            <div class="row">
+                <div class="col-md-6 small">Copyright &copy; Your Website 2021</div>
+                <div class="col-md-6 text-md-end small">
+                    <a href="#!">Privacy Policy</a>
+                    &middot;
+                    <a href="#!">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
